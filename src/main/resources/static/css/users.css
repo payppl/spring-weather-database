@@ -1,0 +1,66 @@
+body {
+   padding: 0px;
+   margin: 0px;
+
+}
+table {
+    margin: 10px;
+}
+table, th, td{
+    border: 5px solid lightblue;
+    border-collapse: collapse;
+}
+tr,td,th {
+    align: center;
+    color: black;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+th {
+    background-color: lightblue;
+
+}
+#inputForm{
+    border: 3px solid lightblue;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    border-radius: 15px;
+}
+input[type="submit"], input[type="reset"] {
+    background-color: white;
+    color: lightblue;
+    border: 2px solid lightblue;
+    margin: 5px;
+    padding: 5px 10px;
+}
+input[type="submit"]:hover, input[type="reset"]:hover,#firstName:hover, #lastName:hover {
+    cursor: pointer;
+    border-color: #3dc7d1;
+}
+#firstName, #lastName{
+    margin: 5px;
+    border: 1px solid lightblue;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    width: 150px;
+    height: 20px;
+    color: grey;
+}
+#firstName:focus , #lastName:focus {
+    outline: none;
+
+}
+#inputFormInside {
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+label {
+    display: inline-block;
+    text-align: right;
+    width: 90px;
+    color: grey;
+}
