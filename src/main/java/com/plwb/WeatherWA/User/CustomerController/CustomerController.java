@@ -1,8 +1,8 @@
-package com.plwb.WeatherWA.Controller;
+package com.plwb.WeatherWA.User.CustomerController;
 
 
-import com.plwb.WeatherWA.User.Customer;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.plwb.WeatherWA.User.Customer.Customer;
+import com.plwb.WeatherWA.User.CustomerService.CustomerService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @Controller
-public class UserController {
+public class CustomerController {
     private final CustomerService customerService;
 
-    public UserController(CustomerService customerService) {
+    public CustomerController(CustomerService customerService) {
         this.customerService = customerService;
     }
 

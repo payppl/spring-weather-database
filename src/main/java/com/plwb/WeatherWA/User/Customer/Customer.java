@@ -1,4 +1,4 @@
-package com.plwb.WeatherWA.User;
+package com.plwb.WeatherWA.User.Customer;
 
 
 import lombok.Data;
