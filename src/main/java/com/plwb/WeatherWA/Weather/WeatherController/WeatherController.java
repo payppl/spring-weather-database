@@ -13,9 +13,10 @@ import com.plwb.WeatherWA.Weather.WeatherMainObject.WeatherList;
 @Controller
 public class WeatherController {
 
-    String apikey = "b42fb993aa25b6f11c7ce09803bc33f3";
-    String lat = "51.96336";
-    String longi = "19.29139";
+    String apikey = "[weather api from https://openweathermap.org/api]";
+    String lat = "";
+    String longi = "";
+
 
     @GetMapping(value = "/weather")
     public ModelAndView getWeathertemp() {
