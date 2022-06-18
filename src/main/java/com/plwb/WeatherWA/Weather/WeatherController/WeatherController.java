@@ -1,7 +1,5 @@
 package com.plwb.WeatherWA.Weather.WeatherController;
 
-import java.util.List;
-
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,11 +10,6 @@ import com.plwb.WeatherWA.Weather.WeatherMainObject.WeatherList;
 
 @Controller
 public class WeatherController {
-
-    String apikey = "[weather api from https://openweathermap.org/api]";
-    String lat = "";
-    String longi = "";
-
 
     @GetMapping(value = "/weather")
     public ModelAndView getWeathertemp() {
