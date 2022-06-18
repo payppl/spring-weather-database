@@ -3,13 +3,24 @@
 <head>
     <title>Main menu</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="../css/index.css" rel="stylesheet">
 </head>
 <body>
-<div id="left">
-    <a href="/users">Go to users</a>
-</div>
-<div id="right">
-    <a href="/weather">Go to weather</a>
-</div>
+    <div id="top">
+        <p> Welcome!</p>
+    </div>
+    
+    <div id="left_image">
+        <div id="left">
+            <input type="button" id="users_button" onclick="location.href='/users'" value="Go to users">
+        </div>
+    </div>
+
+    <div id="right_image">
+        <div id="right">
+            <input type="button" id="weather_button" onclick="location.href='/weather'" value="go to weather">
+        </div>
+    </div>
+
 </body>
 </html>

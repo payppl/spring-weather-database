@@ -6,13 +6,10 @@
 
 </head>
 <body>
-<p>City: <a th:text="${city}"></a></p>
-<p>main: <a th:text="${weather.main}"></a></p>
-<p>description: <a th:text="${weather.description}"></a></p>
-<p>temperature: <a th:text="${main.temp}"></a></p>
-<p>pressure: <a th:text="${main.pressure}"></a></p>
-<p>feels like: <a th:text="${main.feels_like}"></a></p>
-<p>humidity: <a th:text="${main.humidity}"></a></p>
-<p>
+<div id="weather_text">
+<p>Temperature: <a th:text="${realfeel.Value}"></a></p>
+<p>Description: <a th:text="${realfeel.Phrase}"></a></p>
+
+</div>
 </body>
 </html>
