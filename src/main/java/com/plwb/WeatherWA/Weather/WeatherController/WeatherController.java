@@ -13,11 +13,6 @@ import com.plwb.WeatherWA.Weather.WeatherMainObject.WeatherList;
 @Controller
 public class WeatherController {
 
-    String apikey = "[weather api from https://openweathermap.org/api]";
-    String lat = "";
-    String longi = "";
-
-
     @GetMapping(value = "/weather")
     public ModelAndView getWeathertemp() {
         ModelAndView mav = new ModelAndView("/weather");
